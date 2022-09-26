@@ -35,7 +35,7 @@ const getAllUsers = (req, res) => {
 app.use("/api/getOnlineUsers", getAllUsers);
 
 const server = app.listen(process.env.PORT, () =>
-  console.log("Server is Running")
+  console.log("Server is Running on PORT ", process.env.PORT)
 );
 
 const socket = require("socket.io");
