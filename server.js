@@ -43,7 +43,7 @@ const io = socket(server, {
   cors: {
     origin: [
       "http://localhost:3000",
-      "https://socket-chat-app-client-k7zx.vercel.app/",
+      "https://socket-chat-app-client-k7zx.vercel.app",
     ],
   },
 });
