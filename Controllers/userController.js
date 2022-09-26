@@ -8,7 +8,7 @@ module.exports.login = async (req, res, next) => {
 
     if (!user) {
       return res.json({
-        message: "Incorrect UserModelname or password",
+        message: "Incorrect Username or password",
         status: false,
       });
     }
